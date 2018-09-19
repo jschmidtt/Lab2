@@ -1,5 +1,6 @@
 package edu.temple.lab2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -57,7 +58,13 @@ public class FormActivity extends AppCompatActivity {
                 }
 
                 //Launch DisplayActivity if all good
-
+                if (start){
+                    //Make Intent
+                    Intent startActivityIntent = new Intent(FormActivity.this, DisplayActivity.class);
+                    //Send name with this start
+                    startActivityIntent.putExtra(DisplayActivity.DATA_KEY, name);
+                    startActivity(startActivityIntent);
+                }
 
             }
         });

@@ -6,12 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".FormActivity">
 
+    <TextView
+        android:id="@+id/textViewEnterPasswordConfirm"
+        android:layout_width="127dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="188dp"
+        android:text="Confirm Password:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEnterPassword"
+        android:layout_width="69dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="128dp"
+        android:text="Password:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEnterEmail"
+        android:layout_width="47dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="68dp"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/textEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Email"
@@ -23,8 +56,8 @@
         android:id="@+id/textName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Name"
@@ -36,8 +69,8 @@
         android:id="@+id/textPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Password"
@@ -49,8 +82,8 @@
         android:id="@+id/textPasswordConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Password Confirm"
@@ -69,4 +102,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
+
+    <TextView
+        android:id="@+id/textViewEnterName"
+        android:layout_width="47dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

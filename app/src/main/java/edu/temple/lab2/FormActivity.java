@@ -51,7 +51,7 @@ public class FormActivity extends AppCompatActivity {
                     start = false;
                 }
                 //Check to see if the passwords match or not
-                if (!password.equals(passwordConfirm) || !passwordConfirm.equals(password)) {
+                if ((start) && (!password.equals(passwordConfirm) || !passwordConfirm.equals(password))) {
                     Toast passwordMismatch = Toast.makeText(getApplicationContext(), "Passwords do not match!", Toast.LENGTH_LONG);
                     passwordMismatch.show();
                     start = false;

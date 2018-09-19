@@ -1,4 +1,4 @@
-# CIS Lab2
+# CIS 3515 Lab2
 Signup form application.
 
 The first acitvity requires a name, email, and password (with password confirm).<br/>
